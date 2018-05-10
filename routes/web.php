@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// ルーティングの設定
+Route::get('/', 'ArticleController@index');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
